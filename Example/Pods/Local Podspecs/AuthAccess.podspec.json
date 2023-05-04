@@ -1,8 +1,8 @@
 {
   "name": "AuthAccess",
   "version": "0.1.0",
-  "summary": "A short description of AuthAccess.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Simple To Use.",
+  "description": "'In Authentication is an awesome pod to make your life easier around validations.'",
   "homepage": "https://github.com/akashbelekar2428/AuthAccess",
   "license": {
     "type": "MIT",
@@ -16,7 +16,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "16.2"
   },
-  "source_files": "AuthAccess/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Source/**/*.swift",
+  "swift_version": "5.0"
 }
