@@ -71,7 +71,7 @@
 		8B19A2BC223E7653E849099A6885FC23 /* Pods-AuthAccess_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AuthAccess_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		902B60FF6B5C67DC1615CA10217D3E4C /* Pods-AuthAccess_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AuthAccess_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FE493B63A2715CC0019207A3BCAA0A4 /* Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = Source/Utility.swift; sourceTree = "<group>"; };
+		9FE493B63A2715CC0019207A3BCAA0A4 /* Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		AC7AD1DD11ED5E0EC75B91EF75654743 /* AuthAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AuthAccess-umbrella.h"; sourceTree = "<group>"; };
 		B065C53DC7264EC0BECCA1B4194218E6 /* AuthAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AuthAccess.modulemap; sourceTree = "<group>"; };
 		B220A49D3B4EBBD008A6D5829594CB5B /* Pods-AuthAccess_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AuthAccess_Example-Info.plist"; sourceTree = "<group>"; };
@@ -121,8 +121,7 @@
 			children = (
 				D5C92BD4573C0A7AC04C859212C67FB3 /* Google_Authenticator.swift */,
 			);
-			name = GoogleAuthenticators;
-			path = Source/GoogleAuthenticators;
+			path = GoogleAuthenticators;
 			sourceTree = "<group>";
 		};
 		196A1C39DFEC28659C6D587BA0752F33 /* Support Files */ = {
@@ -154,8 +153,7 @@
 			children = (
 				D5AD4774A327565164793237A0AFA4F5 /* Email_Address.swift */,
 			);
-			name = EmailAddress;
-			path = Source/EmailAddress;
+			path = EmailAddress;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -169,14 +167,7 @@
 		6A610EC96E8C13BAD01BEA078E00978A /* AuthAccess */ = {
 			isa = PBXGroup;
 			children = (
-				9FE493B63A2715CC0019207A3BCAA0A4 /* Utility.swift */,
-				76663AA681E6F3CE14AD3E52D287C7FA /* 6DigitPIN */,
-				51583AC6996D2A48B59BFD253929FA63 /* EmailAddress */,
-				6D0928EDD69DE0CFAF6D595AECA3F77D /* EmailPassword */,
-				91CB5F2A41D914EAEA3B08ED1E416A73 /* EmailPIN */,
-				0492443957BB773CDDD57421DFE64E34 /* GoogleAuthenticators */,
-				D7D2472CD3E29AB5601DC4C8F9A24044 /* MobileNumber */,
-				BE0F7B87F22D225444D4432B498A5AF3 /* MobilePIN */,
+				AE2A5C922A03CB12002213ED /* Resource */,
 				FC25D96A4AB279261DCC34ADDA550DAB /* Pod */,
 				196A1C39DFEC28659C6D587BA0752F33 /* Support Files */,
 				D8A6541C35D3AFA32628152E0B8AC9A2 /* UsernamePassword */,
@@ -190,8 +181,7 @@
 			children = (
 				2B6F372D97BEFC2BD0F937F5FDD37709 /* EmailAddress_Password.swift */,
 			);
-			name = EmailPassword;
-			path = Source/EmailPassword;
+			path = EmailPassword;
 			sourceTree = "<group>";
 		};
 		76663AA681E6F3CE14AD3E52D287C7FA /* 6DigitPIN */ = {
@@ -199,8 +189,7 @@
 			children = (
 				DA0B1F22A54A1C6E47FB0BEFA36099CF /* _6DigitPIN.swift */,
 			);
-			name = 6DigitPIN;
-			path = Source/6DigitPIN;
+			path = 6DigitPIN;
 			sourceTree = "<group>";
 		};
 		8D8F2B9F69698E5F7C723DE751BE5804 /* Development Pods */ = {
@@ -216,8 +205,7 @@
 			children = (
 				F905721AC122DC9A7D489CEDD14983CA /* Email_PIN.swift */,
 			);
-			name = EmailPIN;
-			path = Source/EmailPIN;
+			path = EmailPIN;
 			sourceTree = "<group>";
 		};
 		97EA6049D64CE15C2661F39A5D779A2A /* Pods-AuthAccess_Tests */ = {
@@ -246,6 +234,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AE2A5C922A03CB12002213ED /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9FE493B63A2715CC0019207A3BCAA0A4 /* Utility.swift */,
+				76663AA681E6F3CE14AD3E52D287C7FA /* 6DigitPIN */,
+				51583AC6996D2A48B59BFD253929FA63 /* EmailAddress */,
+				6D0928EDD69DE0CFAF6D595AECA3F77D /* EmailPassword */,
+				91CB5F2A41D914EAEA3B08ED1E416A73 /* EmailPIN */,
+				0492443957BB773CDDD57421DFE64E34 /* GoogleAuthenticators */,
+				D7D2472CD3E29AB5601DC4C8F9A24044 /* MobileNumber */,
+				BE0F7B87F22D225444D4432B498A5AF3 /* MobilePIN */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		BD9355619490F15DAFF93411A0D5F1BC /* Pods-AuthAccess_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,8 +271,7 @@
 			children = (
 				B79211E1CB8CE37D9B6FD6BF9F97EFC4 /* Mobile_PIN.swift */,
 			);
-			name = MobilePIN;
-			path = Source/MobilePIN;
+			path = MobilePIN;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -296,8 +298,7 @@
 			children = (
 				71C2DE46349690D6B2C683B0C9602EB1 /* Mobile_Number.swift */,
 			);
-			name = MobileNumber;
-			path = Source/MobileNumber;
+			path = MobileNumber;
 			sourceTree = "<group>";
 		};
 		D8A6541C35D3AFA32628152E0B8AC9A2 /* UsernamePassword */ = {
